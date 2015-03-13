@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --recursive -R spec",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --recursive -R spec"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "codeclimate-test-reporter": "latest",
+    "coveralls": "latest",
+    "istanbul": "latest",
+    "mocha": "latest"
+  }
+}
