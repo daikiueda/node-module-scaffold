@@ -4,16 +4,18 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha --recursive -R spec",
-    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --recursive -R spec"
+    "test": "node ./node_modules/mocha/bin/mocha",
+    "test-cov": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
   },
+  "license": "MIT",
   "dependencies": {
   },
   "devDependencies": {
-    "chai": "latest",
     "codeclimate-test-reporter": "latest",
     "coveralls": "latest",
+    "intelli-espower-loader": "latest",
     "istanbul": "latest",
-    "mocha": "latest"
+    "mocha": "latest",
+    "power-assert": "latest"
   }
 }

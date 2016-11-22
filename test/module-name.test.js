@@ -1,8 +1,7 @@
-"use strict";
+/* global describe, it */
 
-var expect = require( "chai" ).expect;
+const assert = require('power-assert');
 
-describe( "module-name", function(){
-    it( "yet not a spec described.", function(){ expect.fail(); } );
-} );
-
+describe('module-name', () => {
+    it('yet not a spec described.', () => {assert(false);});
+});
